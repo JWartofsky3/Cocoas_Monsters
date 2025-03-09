@@ -1,0 +1,27 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Cocoa's Monsters Resources",
+		"min_engine_version": [1, 21, 20],
+		"name": "Cocoa's Monsters Resources [1.0.0]",
+		"uuid": "da1937b8-2c99-4ef0-95b2-78e3547147d1",
+		"version": [1, 9, 6]
+	},
+	"modules": [
+		{
+			"description": "Cocoa's Monsters Resources",
+			"type": "resources",
+			"uuid": "5ee48684-c774-4991-b2ab-95e3632ac570",
+			"version": [1, 9, 6]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": ["2.6.0"],
+			"dash": ["0.10.8"],
+			"blockbench_entity_wizard": ["1.1.1", "1.4.0", "1.5.1", "1.7.0"],
+			"blockbench_item_wizard": ["1.1.0"],
+			"blockbench_block_wizard": ["1.2.2", "1.3.0"]
+		}
+	}
+}

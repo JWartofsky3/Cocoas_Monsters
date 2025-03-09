@@ -1,0 +1,15 @@
+{
+	"format_version": [1, 21, 40],
+	"minere:amethyst_shield": {
+		"textures": "amethyst_shield",
+		"sound": "glass"
+	},
+	"minere:freeze_ice": {
+		"textures": "ice",
+		"sound": "glass"
+	},
+	"minere:pulsar": {
+		"textures": "pulsar",
+		"sound": "stone"
+	}
+}

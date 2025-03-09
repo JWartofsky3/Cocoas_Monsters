@@ -1,0 +1,43 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Adds new unique monsters to your world such as the Ogre, Yeti, Demon, and Lizord.",
+    "name": "Cocoa's Monsters 1.0.0",
+    "uuid": "d6c06dff-4c3a-4753-8504-975063c88a6c",
+    "version": [1, 9, 6],
+    "min_engine_version": [1, 21, 30]
+  },
+  "modules": [
+    {
+      "description": "Cocoa's Monsters Data",
+      "type": "data",
+      "uuid": "a75ebee6-9599-4a66-859e-4160d2445d4d",
+      "version": [1, 9, 6]
+    },
+    {
+      "description": "Cocoa's Monsters Scripts",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "991c35ab-e7c6-4998-8929-ee4d45087465",
+      "entry": "scripts/main.js",
+      "version": [1, 9, 6]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "da1937b8-2c99-4ef0-95b2-78e3547147d1",
+      "version": [1, 9, 6]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.16.0"
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "blockbench_entity_wizard": ["1.1.1", "1.4.0", "1.5.1", "1.7.0"],
+      "blockbench_item_wizard": ["1.1.0"],
+      "blockbench_block_wizard": ["1.2.2", "1.3.0"]
+    }
+  }
+}

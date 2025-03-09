@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minere:amethyst_staff",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": "minere.amethyst_staff",
+      "minecraft:damage": 3,
+      "minecraft:can_destroy_in_creative": true,
+      "minecraft:enchantable": {
+        "slot": "sword",
+        "value": 15
+      },
+      "minecraft:rarity": "uncommon",
+      "minecraft:durability": {
+        "max_durability": 384
+      },
+      "minecraft:cooldown": {
+        "category": "amethystStaff",
+        "duration": 8.0
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["amethyst_shard"],
+            "repair_amount": 96
+          }
+        ]
+      }
+    }
+  }
+}

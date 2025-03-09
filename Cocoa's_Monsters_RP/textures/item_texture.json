@@ -1,0 +1,39 @@
+{
+  "texture_data": {
+    "minere.ender_plasma": {
+      "textures": "textures/items/minere/ender_plasma.png"
+    },
+    "minere.amethyst_staff": {
+      "textures": "textures/items/minere/amethyst_staff.png"
+    },
+    "minere.fire_staff": {
+      "textures": "textures/items/minere/fire_staff.png"
+    },
+    "minere.echo_staff": {
+      "textures": "textures/items/minere/echo_staff.png"
+    },
+    "minere.enderon_gemstone": {
+      "textures": "textures/items/minere/enderon_gemstone"
+    },
+    "minere.phased_ender_pearl": {
+      "textures": "textures/items/minere/phased_ender_pearl.png"
+    },
+    "minere.bomb": {
+      "textures": "textures/items/minere/bomb"
+    },
+    "minere.emerald_shard": {
+      "textures": "textures/items/minere/emerald_shard"
+    },
+    "minere.ice_dagger": {
+      "textures": "textures/items/minere/ice_dagger.png"
+    },
+    "minere.venom_shank": {
+      "textures": "textures/items/minere/venom_shank.png"
+    },
+    "minere.illumina": {
+      "textures": "textures/items/minere/illumina.png"
+    }
+  },
+  "resource_pack_name": "Cocoa's Monsters Resources",
+  "texture_name": "atlas.items"
+}

@@ -1,0 +1,63 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "minere:cosmic_jelly_placeholder",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:density_limit": {
+          "surface": 4,
+          "underground": 4
+        },
+        "minecraft:height_filter": {
+          "max": 80
+        },
+        "minecraft:spawns_on_block_filter": [
+          "minecraft:end_stone",
+          "minere:end_sand"
+        ],
+        "minecraft:weight": {
+          "default": 2
+        },
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "minecraft:biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "the_end"
+          }
+        ]
+      },
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:density_limit": {
+          "surface": 4,
+          "underground": 4
+        },
+        "minecraft:height_filter": {
+          "min": 80
+        },
+        "minecraft:weight": {
+          "default": 8
+        },
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "minecraft:biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "the_end"
+          }
+        ]
+      }
+    ]
+  }
+}

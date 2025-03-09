@@ -1,0 +1,344 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"minere:necromancer": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					},
+					"prepare.attack": "mob.evocation_illager.prepare_attack",
+					"prepare.summon": "mob.evocation_illager.prepare_summon",
+					"prepare.wololo": "mob.evocation_illager.prepare_wololo"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"minere:scorpion": {
+				"events": {
+					"ambient": "mob.scorpion.hurt",
+					"death": "mob.scorpion.death",
+					"hurt": "mob.scorpion.hurt",
+					"step": {
+						"pitch": [0.8, 1.2],
+						"sound": "mob.scorpion.walk",
+						"volume": 0.35
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1.5
+			},
+			"minere:ghost": {
+				"events": {
+					"ambient": "mob.ghost.ambient",
+					"charge": "mob.ghost.attack",
+					"death": "mob.ghost.die",
+					"hurt": "mob.ghost.hurt"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1.3
+			},
+			"minere:cosmic_jelly": {
+				"events": {
+					"ambient": {
+						"sound": "mob.cosmic_jelly.ambient",
+						"pitch": [0.5, 0.75]
+					},
+					"hurt": {
+						"sound": "mob.cosmic_jelly.bubble",
+						"pitch": [0.75, 1]
+					},
+					"warn": {
+						"sound": "mob.cosmic_jelly.warn",
+						"pitch": [0.75, 1]
+					},
+					"shoot": "mob.cosmic_jelly.shoot",
+					"death": {
+						"sound": "mob.cosmic_jelly.bubble",
+						"pitch": 0.4
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 5
+			},
+			"minere:goblin": {
+				"events": {
+					"admire": "mob.goblin.admire",
+					"ambient": "mob.goblin.ambient",
+					"attack": "mob.goblin.hurt",
+					"shoot": "random.bow",
+					"celebrate": "mob.goblin.laugh",
+					"death": "mob.goblin.die",
+					"hurt": "mob.goblin.hurt",
+					"retreat": {
+						"sound": "mob.goblin.laugh",
+						"pitch": [1.2, 1.4],
+						"volume": 1.5
+					},
+					"step": {
+						"sound": "mob.goblin.step",
+						"volume": 0.55
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"minere:ogre": {
+				"events": {
+					"ambient": "mob.ogre.ambient",
+					"death": "mob.ogre.die",
+					"hurt": "mob.ogre.hurt",
+					"step": "mob.yeti.step",
+					"attack": "dig.wood",
+					"roar": "mob.ogre.roar",
+					"attack.strong": "mob.ogre.attack"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 2
+			},
+			"minere:demon": {
+				"events": {
+					"ambient": "mob.demon.ambient",
+					"death": "mob.demon.die",
+					"hurt": "mob.demon.hurt",
+					"step": "mob.yeti.step",
+					"attack": "dig.wood",
+					"roar": "mob.demon.magic",
+					"attack.strong": "mob.demon.attack",
+					"prepare.summon": "mob.demon.magic"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 2
+			},
+			"minere:demon_skull": {
+				"events": {
+					"attack": "mob.biter.bite",
+					"ambient": "mob.demon_skull.screech",
+					"death": {
+						"sound": "mob.demon_skull.screech",
+						"pitch": 0.75,
+						"volume": 1.5
+					},
+					"hurt": "mob.demon_skull.screech"
+				},
+				"pitch": [1.2, 1.6],
+				"volume": 0.8
+			},
+			"minere:freeze": {
+				"events": {
+					"attack.strong": "mob.freeze.attack",
+					"hurt": "mob.freeze.hurt",
+					"death": {
+						"sound": "mob.freeze.die",
+						"pitch": 0.6,
+						"volume": 1.75
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1.1
+			},
+			"minere:yeti": {
+				"events": {
+					"ambient": "mob.yeti.ambient",
+					"death": "mob.yeti.die",
+					"hurt": "mob.yeti.hurt",
+					"step": "mob.yeti.step",
+					"attack.strong": "mob.yeti.attack",
+					"retreat": "mob.yeti.scared",
+					"purr": "mob.yeti.purr"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 2
+			},
+			"minere:biter": {
+				"events": {
+					"attack": "mob.biter.bite",
+					"flop": {
+						"pitch": 1,
+						"sound": "mob.fish.flop",
+						"volume": 1
+					},
+					"hurt": "mob.fish.hurt",
+					"hurt.in.water": "mob.fish.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.fish.step",
+						"volume": 0.15
+					}
+				},
+				"pitch": [0.6, 1],
+				"volume": 1.5
+			},
+			"minere:lizord": {
+				"events": {
+					"ambient": "mob.lizord.angry",
+					"angry": "mob.lizord.angry",
+					"death": "mob.lizord.die",
+					"hurt": "mob.lizord.hurt",
+					"step": "mob.lizord.step",
+					"shoot": {
+						"sound": "mob.lizord.shoot",
+						"volume": 5
+					},
+					"warn": {
+						"sound": "mob.lizord.warn",
+						"volume": 5
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 2.5
+			},
+			"minere:netherzord": {
+				"events": {
+					"ambient": "mob.lizord.angry",
+					"angry": "mob.lizord.angry",
+					"death": "mob.lizord.die",
+					"hurt": "mob.lizord.hurt",
+					"step": "mob.lizord.step",
+					"shoot": {
+						"sound": "mob.lizord.shoot",
+						"volume": 5
+					},
+					"warn": {
+						"sound": "mob.lizord.warn",
+						"volume": 5
+					}
+				},
+				"pitch": [0.6, 0.9],
+				"volume": 2.5
+			},
+			"minere:walker": {
+				"events": {
+					"hurt": "mob.walker.hurt",
+					"death": {
+						"sound": "mob.walker.hurt",
+						"pitch": 0.6,
+						"volume": 7
+					},
+					"shoot": "mob.walker.shoot",
+					"warn": "mob.walker.warn",
+					"attack.strong": "mob.walker.attack",
+					"step": {
+						"pitch": [0.6, 0.8],
+						"sound": "mob.walker.step",
+						"volume": 3
+					},
+					"irongolem.repair": "mob.irongolem.repair"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 5
+			},
+			"minere:web_spider": {
+				"events": {
+					"ambient": "mob.spider.say",
+					"death": "mob.spider.death",
+					"hurt": "mob.spider.say",
+					"step": {
+						"pitch": [0.6, 0.8],
+						"sound": "mob.spider.step",
+						"volume": 0.55
+					}
+				},
+				"pitch": [0.5, 0.8],
+				"volume": 2
+			},
+			"minere:gremlin": {
+				"events": {
+					"ambient": "mob.strider.idle",
+					"death": "mob.strider.death",
+					"eat": "mob.strider.eat",
+					"hurt": "mob.strider.hurt",
+					"panic": "mob.strider.panic",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.strider.step",
+						"volume": 0.25
+					},
+					"step_lava": {
+						"pitch": 1,
+						"sound": "mob.strider.step_lava",
+						"volume": 0.2
+					},
+					"tempt": "mob.strider.tempt"
+				},
+				"pitch": [0.9, 1.4],
+				"volume": 1
+			},
+			"minere:monster_bat": {
+				"events": {
+					"ambient": "mob.bat.idle",
+					"death": "mob.bat.death",
+					"hurt": "mob.bat.hurt",
+					"takeoff": {
+						"pitch": [0.8, 1.2],
+						"sound": "mob.bat.takeoff",
+						"volume": 0.05
+					}
+				},
+				"pitch": [0.3, 0.7],
+				"volume": 0.6
+			},
+			"minere:vampire": {
+				"events": {
+					"ambient": "mob.vampire.ambient",
+					"death": "mob.vampire.die",
+					"hurt": "mob.vampire.hurt",
+					"angry": "mob.vampire.angry",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.25
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1.5
+			},
+			"minere:ender_phantom": {
+				"events": {
+					"ambient": "mob.phantom.idle",
+					"attack": "mob.phantom.bite",
+					"death": "mob.phantom.death",
+					"flap": "mob.phantom.flap",
+					"hurt": "mob.phantom.hurt",
+					"swoop": {
+						"pitch": [0.95, 1.05],
+						"sound": "mob.phantom.swoop"
+					},
+					"shoot": "mob.ghast.fireball"
+				},
+				"pitch": [0.4, 0.7],
+				"volume": 11
+			},
+			"minere:dire_wolf": {
+				"events": {
+					"ambient": {
+						"pitch": [0.9, 1.2],
+						"sound": "mob.dire_wolf.howl",
+						"volume": 3
+					},
+					"angry": "mob.dire_wolf.growl",
+					"death": "mob.dire_wolf.howl",
+					"hurt": {
+						"pitch": [0.9, 1.4],
+						"sound": "mob.dire_wolf.growl",
+						"volume": 1.5
+					},
+					"step": {
+						"pitch": [0.8, 1.2],
+						"sound": "mob.wolf.step",
+						"volume": 0.85
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1.5
+			}
+		}
+	}
+}
